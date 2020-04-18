@@ -1,0 +1,20 @@
+[package]
+name = "rust-cli-test"
+version = "0.1.0"
+description = "A simple test RUST cli app"
+homepage = "https://github.com/rousan/rust-cli-test"
+repository = "https://github.com/rousan/rust-cli-test"
+keywords = ["cli","rust","test"]
+categories = ["command-line-utilities"]
+authors = ["Rousan Ali <hello@rousan.io>"]
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+clap = "2.33"
+colored = "1.9"
+lazy_static = "1.4.0"
+uuid = { version = "0.8", features = ["v4"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
