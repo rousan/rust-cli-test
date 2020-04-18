@@ -10,7 +10,7 @@ authors = ["Rousan Ali <hello@rousan.io>"]
 readme = "README.md"
 license = "MIT"
 edition = "2018"
-
+ 
 [dependencies]
 clap = "2.33"
 colored = "1.9"
